@@ -1,0 +1,40 @@
+/* Page layout styles */
+.container {
+    max-width: 960px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: #ffffff;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+.navbar-toggler {
+    margin: 0.5rem;
+}
+
+/* Footer styles */
+.page-footer {
+    background-color: #666666;
+}
+
+.footer-copyright {
+    color: white;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font styles */
+a:hover {
+    color: #4aaaa5 !important;
+}
