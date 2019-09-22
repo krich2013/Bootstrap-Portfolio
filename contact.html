@@ -39,7 +39,27 @@
         <div class="row">
             <div class="card-body">
                 <h5 class="card-title">Contact</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <form>
+                    <!-- Name Input -->
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupInput" aria-describedby="nameHelp">
+                    </div>
+
+                    <!-- Email Input -->
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="formGroupInput" aria-describedby="emailHelp">
+                    </div>    
+                    
+                    <!-- Message -->
+                    <div class="form-group">
+                            <label for="formGroupExampleInput">Message</label>
+                            <input type="text" class="form-control" id="messageGroupInput" aria-describedby="messageHelp">
+                    </div>    
+                    
+                    <button type="submit" class="btn">Submit</button>
+                </form>
             </div>
         </div>
 

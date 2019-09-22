@@ -9,6 +9,7 @@
     border: solid;
     border-width: 1px;
     border-color: #dddddd; 
+    margin-bottom: 5rem;
 }
 
 /* Navigation styles */
@@ -36,6 +37,10 @@
 /* Footer styles */
 .page-footer {
     background-color: #666666;
+    border-top-style: solid;
+    border-width: 8px;
+    border-color: #4aaaa5;
+    clear: both;
 }
 
 .footer-copyright {
@@ -49,6 +54,7 @@ a:hover {
     color: #4aaaa5 !important;
 }
 
+/* About Me styles */
 .card-title {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -57,4 +63,45 @@ a:hover {
     border-width: 1px;
     border-color: #dddddd; 
     padding-bottom: 1rem;
+}
+
+.profile-image {
+    margin-right: 1rem;
+    max-width: 333px;
+    width: 100%;
+}
+
+/* Form Styles */
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 0rem !important;
+}
+
+#formGroupInput {
+    font-size: 12px;
+    color: #777777;
+    border-radius: 0rem !important;
+}
+
+#messageGroupInput {
+    font-size: 12px;
+    color: #777777;
+    border-radius: 0rem !important;
+    height: 300px;
+}
+
+/* Portfolio styles */
+.card-body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
